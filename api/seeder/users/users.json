@@ -1,0 +1,38 @@
+[
+  {
+    "email": "streethellboy.amin@gmail.com",
+    "role": "admin",
+    "type": "پشتیبان",
+    "level": "سطح یک",
+    "password": "15441544",
+    "mobileNumber": "09334005731",
+    "fullName": "امین یوسفی عدل",
+    "ancestors": [],
+    "nationalCode": "1361042591",
+    "address": "تبریز"
+  },
+  {
+    "email": "user-1@gmail.com",
+    "password": "15441544",
+    "mobileNumber": "09141234567",
+    "fullName": "یوزر یک",
+    "nationalCode": "1361042591",
+    "address": "تبریز"
+  },
+  {
+    "email": "user-2@gmail.com",
+    "password": "15441544",
+    "mobileNumber": "09141234568",
+    "fullName": "یوزر دو",
+    "nationalCode": "1361042591",
+    "address": "تبریز"
+  },
+  {
+    "email": "user-3@gmail.com",
+    "password": "15441544",
+    "mobileNumber": "09141234569",
+    "fullName": "یوزر سه",
+    "nationalCode": "1361042591",
+    "address": "تبریز"
+  }
+]

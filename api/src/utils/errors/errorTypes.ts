@@ -1,0 +1,5 @@
+export enum GENERAL_ERROR_TYPES {
+  GENERAL = "GENERAL",
+  INPUT = "INPUT",
+  QUERY = "QUERY",
+}

@@ -1,0 +1,20 @@
+version: "3"
+services:
+  deezer.api:
+    build:
+      context: ./api
+    container_name: deezer.api
+    env_file: ./api/.env
+    restart: always
+    ports:
+      - "2999:2999"
+  deezer.app:
+    build:
+      context: ./www
+    depends_on:
+      - deezer.api
+    container_name: deezer.app
+    env_file: ./www/.env
+    restart: always
+    ports:
+      - "2998:80"
